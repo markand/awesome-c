@@ -30,6 +30,15 @@ Data compression, extracting archives.
 - [Zstandard][library-zstandard]: fast compression algorithm.
   [BSD-3-Clause][license-bsd-3-clause].
 
+Configuration files
+-------------------
+
+Configuration files parsing.
+
+- [inih][library-inih]: .ini file parser. [BSD-3-Clause][license-bsd-3-clause].
+- [libconfuse][library-libconfuse]: small configuration file parsing.
+  [ISC][license-isc].
+
 Databases
 ---------
 
@@ -196,6 +205,7 @@ List of build systems.
 [library-gravity]: https://marcobambini.github.io/gravity
 [library-gtk]: https://gtk.org
 [library-icu]: https://icu.unicode.org
+[library-inih]: https://github.com/benhoyt/inih
 [library-jansson]: https://github.com/akheron/jansson
 [library-jsmn]: https://zserge.com/jsmn
 [library-json-c]: http://json-c.github.io/json-c
@@ -204,6 +214,7 @@ List of build systems.
 [library-libarchive]: http://libarchive.org
 [library-libbase64]: https://projects.malikania.fr/libbase64
 [library-libbuf]: https://projects.malikania.fr/libbuf
+[library-libconfuse]: https://github.com/libconfuse/libconfuse
 [library-libpq]: https://www.postgresql.org/docs/current/libpq.html
 [library-libunicode]: https://projects.malikania.fr/libunicode
 [library-libxml2]: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
