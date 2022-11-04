@@ -18,6 +18,18 @@ Artificial intelligence.
 - [sod][library-sod]: embedded computer vision and machine learning library.
   [GPL-3.0-only][license-gpl-3.0-only].
 
+Compression
+-----------
+
+Data compression, extracting archives.
+
+- [libarchive][library-libarchive]: multi-format archive compression library.
+  [BSD-3-Clause][license-bsd-3-clause].
+- [libzip][library-libzip]: reading, creating and modifying zip archives.
+  [BSD-3-Clause][license-bsd-3-clause].
+- [Zstandard][library-zstandard]: fast compression algorithm.
+  [BSD-3-Clause][license-bsd-3-clause].
+
 GUI
 ---
 
@@ -41,6 +53,8 @@ Frameworks to access SQL, NoSQL and other engines.
   [PostgreSQL][license-postgresql].
 - [sqlite][library-sqlite]: file based SQL engine, most used in the world.
   [Public domain][license-public-domain].
+- [unqlite][library-unqlite]: embeddable NoSQL library.
+  [BSD-2-Clause][license-bsd-2-clause].
 
 JSON
 ----
@@ -57,6 +71,7 @@ Game programming
 
 - [Allegro][library-allegro]: cross-platform library mainly aimed at video game
   and multimedia programming. [BSD-3-Clause][license-bsd-3-clause].
+- [CSFML][library-csfml]: official C binding for SFML. [Zlib][license-zlib].
 - [SDL2][library-sdl2]: cross platform development library with audio, video, input,
   OpenGL and more. [Zlib][license-zlib].
 
@@ -105,6 +120,15 @@ formats.
 - [libbase64][library-libbase64]: minimal set of 6 functions to encode and
   decode base64 data. [ISC][license-isc].
 
+XML
+---
+
+Libraries to decode, parse and generate [XML][other-xml].
+
+- [expat][library-expat]: stream oriented (SAX) library. [MIT][license-mit].
+- [libxml2][library-libxml2]: document oriented parsing library.
+  [MIT][license-mit].
+
 Web frameworks
 --------------
 
@@ -123,6 +147,8 @@ Set of tools, IDE and code helpers.
 Compilers
 ---------
 
+Obvious compilers that compile your code.
+
 - [cproc][tool-cproc]: C11 compiler based on QBE. [ISC][license-isc].
 - [GCC][tool-gcc]: GNU Compiler Collection.
   [GPL-3.0-or-later][license-GPL-3.0-or-later].
@@ -131,6 +157,8 @@ Compilers
 
 Environment
 -----------
+
+Set of environment applications and utilities.
 
 - [MSYS2][tool-msys2]: easy to use environment for windows including gcc, clang
   and the Arch Linux's pacman package manager. [^1].
@@ -160,8 +188,10 @@ List of build systems.
       different individual elements.
 
 [library-allegro]: https://liballeg.org
+[library-csfml]: https://www.sfml-dev.org/download/csfml/index.php
 [library-duktape]: https://duktape.org
 [library-efl]: https://www.enlightenment.org/about-efl
+[library-expat]: https://libexpat.github.io
 [library-facio.io]: https://facil.io
 [library-gravity]: https://marcobambini.github.io/gravity
 [library-gtk]: https://gtk.org
@@ -171,10 +201,13 @@ List of build systems.
 [library-json-c]: http://json-c.github.io/json-c
 [library-kcgi]: https://kristaps.bsd.lv/kcgi
 [library-kore]: https://kore.io
+[library-libarchive]: http://libarchive.org
 [library-libbase64]: https://projects.malikania.fr/libbase64
 [library-libbuf]: https://projects.malikania.fr/libbuf
 [library-libpq]: https://www.postgresql.org/docs/current/libpq.html
 [library-libunicode]: https://projects.malikania.fr/libunicode
+[library-libxml2]: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
+[library-libzip]: https://libzip.org
 [library-lua]: https://www.lua.org
 [library-mariadb-c-connector]: https://github.com/mariadb-corporation/mariadb-connector-c
 [library-mariadb]: https://mariadb.org
@@ -183,9 +216,11 @@ List of build systems.
 [library-sds]: https://github.com/antirez/sds
 [library-sod]: https://sod.pixlab.io
 [library-sqlite]: https://sqlite.org
+[library-unqlite]: https://unqlite.org
 [library-utf8.h]: https://github.com/sheredom/utf8.h
 [library-utf8proc]: https://github.com/JuliaStrings/utf8proc
 [library-wren]: https://wren.io
+[library-zstandard]: http://facebook.github.io/zstd
 
 [tool-bsd-make]: https://www.crufty.net/help/sjg/bmake.htm
 [tool-cmake]: https://cmake.org
@@ -193,7 +228,9 @@ List of build systems.
 [tool-gcc]: https://gcc.gnu.org
 [tool-gnu-make]: https://www.gnu.org/software/make
 [tool-llvm]: https://llvm.org
+[tool-meson]: https://mesonbuild.com
 [tool-msys2]: https://www.msys2.org
+[tool-premake]: https://premake.github.io
 [tool-visual-studio]: https://visualstudio.microsoft.com
 [tool-xmake]: https://xmake.io
 
@@ -214,3 +251,4 @@ List of build systems.
 [license-zlib]: https://spdx.org/licenses/Zlib.html
 
 [other-json]: https://en.wikipedia.org/wiki/JavaScript_Object_Notation
+[other-xml]: https://en.wikipedia.org/wiki/XML
