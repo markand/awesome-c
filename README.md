@@ -114,6 +114,8 @@ formats.
 
 - [libbase64][library-libbase64]: minimal set of 6 functions to encode and
   decode base64 data. [ISC][license-isc].
+- [mustache4c][library-mustache4c]: C mustache parser library.
+  [MIT][license-mit].
 
 Unicode
 -------
@@ -222,6 +224,7 @@ List of build systems.
 [library-lua]: https://www.lua.org
 [library-mariadb-c-connector]: https://github.com/mariadb-corporation/mariadb-connector-c
 [library-mariadb]: https://mariadb.org
+[library-mustache4c]: https://github.com/mity/mustache4c
 [library-nuklear]: https://github.com/Immediate-Mode-UI/Nuklear
 [library-sdl2]: https://libsdl.org
 [library-sds]: https://github.com/antirez/sds
