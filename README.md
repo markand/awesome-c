@@ -30,18 +30,6 @@ Data compression, extracting archives.
 - [Zstandard][library-zstandard]: fast compression algorithm.
   [BSD-3-Clause][license-bsd-3-clause].
 
-GUI
----
-
-Graphical user interface toolkits to create end user applications.
-
-- [EFL][library-efl]: enlightenment foundation library.
-  [LGPL-2.1-only][license-lgpl-2.1-only].
-- [GTK][library-gtk]: GNOME graphical toolkit.
-  [LGPL-2.1-or-later][license-lgpl-2.1-or-later].
-- [nuklear][library-nuklear]: platform agnostic immediate mode UI library.
-  [MIT][license-mit].
-
 Databases
 ---------
 
@@ -56,6 +44,27 @@ Frameworks to access SQL, NoSQL and other engines.
 - [unqlite][library-unqlite]: embeddable NoSQL library.
   [BSD-2-Clause][license-bsd-2-clause].
 
+Game programming
+----------------
+
+- [Allegro][library-allegro]: cross-platform library mainly aimed at video game
+  and multimedia programming. [BSD-3-Clause][license-bsd-3-clause].
+- [CSFML][library-csfml]: official C binding for SFML. [Zlib][license-zlib].
+- [SDL2][library-sdl2]: cross platform development library with audio, video, input,
+  OpenGL and more. [Zlib][license-zlib].
+
+Graphical user interfaces
+-------------------------
+
+Graphical user interface toolkits to create end user applications.
+
+- [EFL][library-efl]: enlightenment foundation library.
+  [LGPL-2.1-only][license-lgpl-2.1-only].
+- [GTK][library-gtk]: GNOME graphical toolkit.
+  [LGPL-2.1-or-later][license-lgpl-2.1-or-later].
+- [nuklear][library-nuklear]: platform agnostic immediate mode UI library.
+  [MIT][license-mit].
+
 JSON
 ----
 
@@ -65,15 +74,6 @@ Libraries to decode, parse and generate [JSON][other-json].
   [MIT][license-mit].
 - [jsmn][library-jsmn]: allocationless JSON decoder. [MIT][license-mit].
 - [json-c][library-json-c]: a JSON implementation in C. [MIT][license-mit].
-
-Game programming
-----------------
-
-- [Allegro][library-allegro]: cross-platform library mainly aimed at video game
-  and multimedia programming. [BSD-3-Clause][license-bsd-3-clause].
-- [CSFML][library-csfml]: official C binding for SFML. [Zlib][license-zlib].
-- [SDL2][library-sdl2]: cross platform development library with audio, video, input,
-  OpenGL and more. [Zlib][license-zlib].
 
 Scripting languages
 -------------------
@@ -97,6 +97,15 @@ Libraries and frameworks to create and manipulate safe strings in C.
 - [sds][library-sds]: Simple Dynamic Strings library for C.
   [BSD-2-Clause][license-bsd-2-clause].
 
+Text manipulation
+-----------------
+
+Other text manipulation that consists of encoding and decoding to different
+formats.
+
+- [libbase64][library-libbase64]: minimal set of 6 functions to encode and
+  decode base64 data. [ISC][license-isc].
+
 Unicode
 -------
 
@@ -111,24 +120,6 @@ representations (e.g. UTF-8, UTF-16, UTF-32) and more.
 - [utf8proc][library-utf8proc]: library for handling UTF-8 strings.
   [MIT][license-mit].
 
-Text manipulation
------------------
-
-Other text manipulation that consists of encoding and decoding to different
-formats.
-
-- [libbase64][library-libbase64]: minimal set of 6 functions to encode and
-  decode base64 data. [ISC][license-isc].
-
-XML
----
-
-Libraries to decode, parse and generate [XML][other-xml].
-
-- [expat][library-expat]: stream oriented (SAX) library. [MIT][license-mit].
-- [libxml2][library-libxml2]: document oriented parsing library.
-  [MIT][license-mit].
-
 Web frameworks
 --------------
 
@@ -138,6 +129,15 @@ List of libraries that let you create websites in CGI or as HTTP servers.
 - [kcgi][library-kcgi]: opinionated minimal CGI/FastCGI library.
   [ISC][license-isc].
 - [kore][library-kore]: web application framework. [ISC][license-isc].
+
+XML
+---
+
+Libraries to decode, parse and generate [XML][other-xml].
+
+- [expat][library-expat]: stream oriented (SAX) library. [MIT][license-mit].
+- [libxml2][library-libxml2]: document oriented parsing library.
+  [MIT][license-mit].
 
 Tools
 =====
