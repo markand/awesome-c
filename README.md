@@ -84,6 +84,21 @@ Libraries to decode, parse and generate [JSON][other-json].
 - [jsmn][library-jsmn]: allocationless JSON decoder. [MIT][license-mit].
 - [json-c][library-json-c]: a JSON implementation in C. [MIT][license-mit].
 
+Networking
+----------
+
+Libraries for networking, event loops, file transfer and such.
+
+- [curl][library-curl]: swiss-army knife for multi protocols file transfer
+  library. [CURL][license-curl].
+- [libev][library-libev]: high performance event loop library.
+  [BSD-2-Clause][license-bsd-2-clause].
+- [libevent][library-libevent]: event notification library with main loop
+  abstraction. [BSD-3-Clause][license-bsd-3-clause].
+- [nanomsg][library-nanomsg]: socket library. [MIT][license-mit].
+- [zeromq][library-zeromq]: universal messaging library.
+  [LGPL-3.0-or-later][license-lgpl-3.0-or-later].
+
 Scripting languages
 -------------------
 
@@ -200,6 +215,7 @@ List of build systems.
 
 [library-allegro]: https://liballeg.org
 [library-csfml]: https://www.sfml-dev.org/download/csfml/index.php
+[library-curl]: https://curl.se/libcurl
 [library-duktape]: https://duktape.org
 [library-efl]: https://www.enlightenment.org/about-efl
 [library-expat]: https://libexpat.github.io
@@ -217,6 +233,8 @@ List of build systems.
 [library-libbase64]: https://projects.malikania.fr/libbase64
 [library-libbuf]: https://projects.malikania.fr/libbuf
 [library-libconfuse]: https://github.com/libconfuse/libconfuse
+[library-libev]: http://software.schmorp.de/pkg/libev.html
+[library-libevent]: https://libevent.org
 [library-libpq]: https://www.postgresql.org/docs/current/libpq.html
 [library-libunicode]: https://projects.malikania.fr/libunicode
 [library-libxml2]: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
@@ -225,6 +243,7 @@ List of build systems.
 [library-mariadb-c-connector]: https://github.com/mariadb-corporation/mariadb-connector-c
 [library-mariadb]: https://mariadb.org
 [library-mustache4c]: https://github.com/mity/mustache4c
+[library-nanomsg]: https://nanomsg.org
 [library-nuklear]: https://github.com/Immediate-Mode-UI/Nuklear
 [library-sdl2]: https://libsdl.org
 [library-sds]: https://github.com/antirez/sds
@@ -234,6 +253,7 @@ List of build systems.
 [library-utf8.h]: https://github.com/sheredom/utf8.h
 [library-utf8proc]: https://github.com/JuliaStrings/utf8proc
 [library-wren]: https://wren.io
+[library-zeromq]: https://zeromq.org
 [library-zstandard]: http://facebook.github.io/zstd
 
 [tool-bsd-make]: https://www.crufty.net/help/sjg/bmake.htm
@@ -251,12 +271,14 @@ List of build systems.
 [license-apache-2.0]: https://spdx.org/licenses/Apache-2.0.html
 [license-bsd-2-clause]: https://spdx.org/licenses/BSD-2-Clause.html
 [license-bsd-3-clause]: https://spdx.org/licenses/BSD-3-Clause.html
+[license-curl]: https://curl.se/docs/copyright.html
 [license-gpl-3.0-only]: https://spdx.org/licenses/GPL-3.0-only.html
 [license-gpl-3.0-or-later]: https://spdx.org/licenses/GPL-3.0-or-later.html
 [license-icu]: https://spdx.org/licenses/ICU.html
 [license-isc]: https://spdx.org/licenses/ISC.html
 [license-lgpl-2.1-only]: https://spdx.org/licenses/LGPL-2.1-only.html
 [license-lgpl-2.1-or-later]: https://spdx.org/licenses/LGPL-2.1-or-later.html
+[license-lgpl-3.0-or-later]: https://spdx.org/licenses/LGPL-3.0-or-later.html
 [license-mit]: https://spdx.org/licenses/MIT.html
 [license-ncsa]: https://spdx.org/licenses/NCSA.html
 [license-postgresql]: https://spdx.org/licenses/PostgreSQL.html
