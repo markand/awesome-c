@@ -18,6 +18,15 @@ Artificial intelligence.
 - [sod][library-sod]: embedded computer vision and machine learning library.
   [GPL-3.0-only][license-gpl-3.0-only].
 
+CBOR
+----
+
+Serialization with the [CBOR][other-cbor] binary format.
+
+- [cn-cbor][library-cn-cbor]: constrained node implementation of CBOR.
+  [MIT][license-mit].
+- [libcbor][library-libcbor]: CBOR implementation for C. [MIT][license-mit].
+
 Compression
 -----------
 
@@ -131,6 +140,8 @@ formats.
   decode base64 data. [ISC][license-isc].
 - [mustache4c][library-mustache4c]: C mustache parser library.
   [MIT][license-mit].
+- [msgpack][library-msgpack]: binary serialization format inspired by JSON.
+  [BSL-1.0][license-boost].
 
 Unicode
 -------
@@ -214,6 +225,7 @@ List of build systems.
       different individual elements.
 
 [library-allegro]: https://liballeg.org
+[library-cn-cbor]: https://github.com/jimsch/cn-cbor
 [library-csfml]: https://www.sfml-dev.org/download/csfml/index.php
 [library-curl]: https://curl.se/libcurl
 [library-duktape]: https://duktape.org
@@ -232,6 +244,7 @@ List of build systems.
 [library-libarchive]: http://libarchive.org
 [library-libbase64]: https://projects.malikania.fr/libbase64
 [library-libbuf]: https://projects.malikania.fr/libbuf
+[library-libcbor]: https://github.com/PJK/libcbor
 [library-libconfuse]: https://github.com/libconfuse/libconfuse
 [library-libev]: http://software.schmorp.de/pkg/libev.html
 [library-libevent]: https://libevent.org
@@ -242,6 +255,7 @@ List of build systems.
 [library-lua]: https://www.lua.org
 [library-mariadb-c-connector]: https://github.com/mariadb-corporation/mariadb-connector-c
 [library-mariadb]: https://mariadb.org
+[library-msgpack]: https://msgpack.org
 [library-mustache4c]: https://github.com/mity/mustache4c
 [library-nanomsg]: https://nanomsg.org
 [library-nuklear]: https://github.com/Immediate-Mode-UI/Nuklear
@@ -271,6 +285,7 @@ List of build systems.
 [license-apache-2.0]: https://spdx.org/licenses/Apache-2.0.html
 [license-bsd-2-clause]: https://spdx.org/licenses/BSD-2-Clause.html
 [license-bsd-3-clause]: https://spdx.org/licenses/BSD-3-Clause.html
+[license-bsl-1.0]: https://spdx.org/licenses/BSL-1.0.html
 [license-curl]: https://curl.se/docs/copyright.html
 [license-gpl-3.0-only]: https://spdx.org/licenses/GPL-3.0-only.html
 [license-gpl-3.0-or-later]: https://spdx.org/licenses/GPL-3.0-or-later.html
@@ -288,3 +303,4 @@ List of build systems.
 
 [other-json]: https://en.wikipedia.org/wiki/JavaScript_Object_Notation
 [other-xml]: https://en.wikipedia.org/wiki/XML
+[other-cbor]: https://cbor.io
